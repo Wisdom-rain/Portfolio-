@@ -802,7 +802,6 @@ footer.show-animate .animate.scroll {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         transition: .25s ease;
         transition-delay: .25s;
-        z-index: 1;
     }
 
     .navbar .active {
