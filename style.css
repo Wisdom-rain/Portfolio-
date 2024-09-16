@@ -806,7 +806,7 @@ footer.show-animate .animate.scroll {
     }
 
     .navbar .active {
-        left: 100%;
+        left: 0;
         transition-delay: .0s;
     }
 
