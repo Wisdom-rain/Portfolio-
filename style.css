@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -87,7 +88,7 @@ section {
     align-items: center;
     padding: 0% 9%;
     background: url('home.jpg') no-repeat;
-    background-position: 80rem 50%;
+    background-position: 70rem 50%;
 }
 
 .home-content {
@@ -110,7 +111,8 @@ section {
 
 .home-content .text-animate {
     position: relative;
-    width: 41.7rem;
+    width: 44.7rem;
+    
 }
 
 .home-content .text-animate h3 {
@@ -121,9 +123,7 @@ section {
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -42rem 0;
-    
-
+    background-position: -44.7rem 0;
 }
 
 .home.show-animate .home-content .text-animate h3 {
@@ -773,7 +773,7 @@ footer.show-animate .animate.scroll {
         align-items: center;
         padding: 0% 9%;
         background: url('home.jpg') no-repeat;
-        background-position: 60rem 40%;
+        background-position: 60rem 50%;
     }
 }
 
@@ -800,13 +800,14 @@ footer.show-animate .animate.scroll {
         padding: 1rem 4%;
         background: var(--main-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
         transition: .25s ease;
         transition-delay: .25s;
     }
 
-    .navbar .active {
+    .navbar.active {
         left: 0;
-        transition-delay: .0s;
+        transition-delay: 0s;
     }
 
     .navbar .active-nav {
@@ -823,16 +824,15 @@ footer.show-animate .animate.scroll {
     }
 
     .navbar.active .active-nav {
-        left: 0;        
+        left: 0;
         transition-delay: .25s;
     }
-
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
         transform: translateX(-20rem);
-        transition: 25s ease;
+        transition: .25s ease;
         transition-delay: 0s;
     }
 
@@ -840,12 +840,17 @@ footer.show-animate .animate.scroll {
         transform: translateX(0);
         transition-delay: .25s;
     }
-
+    .home {
+        display: flex;
+        align-items: center;
+        padding: 0% 9%;
+        background: url('home.jpg') no-repeat;
+        background-position: 45rem 50%;
+    }
     .home-imgHover {
-    pointer-events: none;
-    background: var(--bg-color);
-    width: 100%;
-    opacity: .9;
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: .6;
     }
 }
 
@@ -855,7 +860,7 @@ footer.show-animate .animate.scroll {
         align-items: center;
         padding: 0% 9%;
         background: url('home.jpg') no-repeat;
-        background-position: 40rem 40%;
+        background-position: 40rem 50%;
     }
 }
 
